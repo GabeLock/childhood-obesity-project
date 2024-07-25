@@ -72,6 +72,6 @@ Para mais informações, entre em contato pelo email: gamirsco@gmail.com
 
 ```
 <p align="center">
-<img src="https://avatars.githubusercontent.com/u/152089875?s=400&u=d18ec50709028dd6543ca6955de6672265f7a846&v=4" alt="Foto de perfil do Gabriel" style="width: 50px; border-radius: 5px;">
+<img src="https://avatars.githubusercontent.com/u/152089875?s=400&u=d18ec50709028dd6543ca6955de6672265f7a846&v=4" alt="Foto de perfil do Gabriel" style="width: 50px; border-radius: 50%;">
 </p>
 ```
