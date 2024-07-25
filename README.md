@@ -1,3 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @keyframes fadeInSlide {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animated-title {
+            font-size: 2em;
+            font-weight: bold;
+            animation: fadeInSlide 2s ease-in-out;
+            text-align: center; /* Centraliza o texto */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="animated-title">Bem-vindo ao Projeto!</h1>
+</body>
+</html>
+
+
 # <h1 align="center"> 🏥 Childhood Obesity Project </h1>
 
 ![Project Status](https://img.shields.io/badge/Status-Active-green)
@@ -5,7 +36,7 @@
 ![Contributors](https://img.shields.io/badge/Contributors-1-orange)
 
 ## 📋 Sobre o Projeto
-Este projeto visa analisar dados de obesidade infantil para identificar padrões e fornecer insights para ações de saúde pública.
+Este projeto visa analisar dados de obesidade infantil, em uma amostragem de público estadunidense, para identificar padrões e fornecer insights para ações de saúde pública.
 
 ## 📁 Estrutura do Repositório
 
@@ -34,12 +65,14 @@ Scripts para processamento de dados.
 
 📊 Exemplos de Visualizações
 Os gráficos gerados a partir dos dados estão disponíveis na pasta `images/`:
-1. **Gráfico de Dispersão dos Resíduos**: Mostra a diferença entre os valores reais e previstos ➡️ `residuals.png`
-![Gráfico de Dispersão dos Resíduos](images/residuals.png)
-2. **Histograma dos Valores Previstos**: Mostra a distribuição dos valores previstos ➡️ `histogram.png`
-![Histrograma dos valores previstos](images/histogram.png)
-3. **Tendências da Obesidade**: Evolução dos percentuais de obesidade ao longo do tempo ➡️ `obesity_trend.png`: 
-![Evolução dos Percentuais de Obesidade ao Longo do Tempo](images/obesity_trend.png)
+1. **Gráfico de Dispersão dos Resíduos**: Mostra a diferença entre os valores reais e previstos 
+➡️ `residuals.png`
+
+2. **Histograma dos Valores Previstos**: Mostra a distribuição dos valores previstos 
+➡️ `histogram.png`
+
+3. **Tendências da Obesidade**: Evolução dos percentuais de obesidade ao longo do tempo 
+➡️ `obesity_trend.png`: 
 
 🛠️ Ferramentas Utilizadas
 Python
@@ -70,6 +103,6 @@ Para mais informações, entre em contato pelo email: gamirsco@gmail.com
 
 ```
 <p align="center">
-<img src="https://avatars.githubusercontent.com/u/152089875?s=400&u=d18ec50709028dd6543ca6955de6672265f7a846&v=4" alt="Foto de perfil do Gabriel">
+<img src="https://avatars.githubusercontent.com/u/152089875?s=400&u=d18ec50709028dd6543ca6955de6672265f7a846&v=4" alt="Foto de perfil do Gabriel" style="width: 50%; border-radius: 50%;">
 </p>
 ```
