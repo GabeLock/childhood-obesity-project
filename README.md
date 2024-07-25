@@ -11,18 +11,21 @@ Este projeto visa analisar dados de obesidade infantil para identificar padrões
 
 ```plaintext
 childhood-obesity-project/
+├── .gitignore
+├── LICENSE
+├── README.md
 ├── data/
 │   ├── child_ob_gender.csv
-│   └── obesity_child_age.csv
-├── notebooks/
-│   └── analysis.ipynb
-├── scripts/
-│   └── main.py
+│   ├── obesity_child_age.csv
 ├── images/
-│   └── graphs.png
-├── README.md
-├── .gitignore
-└── requirements.txt
+│   ├── graphs.png
+├── notebooks/
+│   ├── analysis.ipynb
+├── scripts/
+│   ├── main.py
+├── env/
+├── requirements.txt
+
 
 🚀 Funcionalidades
 Análise de dados de obesidade infantil por gênero e idade.
@@ -40,7 +43,7 @@ Matplotlib
 📦 Instalação
 1. Clone o repositório:
 
-git clone https://github.com/seu-usuario/childhood-obesity-project.git
+git clone https://github.com/GabeLock/childhood-obesity-project.git
 cd childhood-obesity-project
 
 2. Crie um ambiente virtual e instale as dependências:
@@ -58,7 +61,5 @@ Gabriel Miranda
 📧 Contato
 Para mais informações, entre em contato pelo email: gamirsco@gmail.com
 
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/152089875?s=400&u=d18ec50709028dd6543ca6955de6672265f7a846&v=4.png" width="100" height="100">
-</p>
+
 ```
