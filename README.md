@@ -1,4 +1,4 @@
-# 🏥 Childhood Obesity Project
+# <h1 align="center"> 🏥 Childhood Obesity Project </h1>
 
 ![Project Status](https://img.shields.io/badge/Status-Active-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
@@ -23,7 +23,7 @@ childhood-obesity-project/
 │   ├── analysis.ipynb
 ├── scripts/
 │   ├── main.py
-├── env/
+├── env/ # Se estiver usando um ambiente virtual, pode ser que queira ignorar esta pasta
 ├── requirements.txt
 
 
@@ -33,6 +33,13 @@ Visualização gráfica dos dados.
 Scripts para processamento de dados.
 
 📊 Exemplos de Visualizações
+Os gráficos gerados a partir dos dados estão disponíveis na pasta `images/`:
+1. **Gráfico de Dispersão dos Resíduos**: Mostra a diferença entre os valores reais e previstos ➡️ `residuals.png`
+![Gráfico de Dispersão dos Resíduos](images/residuals.png)
+2. **Histograma dos Valores Previstos**: Mostra a distribuição dos valores previstos ➡️ `histogram.png`
+![Histrograma dos valores previstos](images/histogram.png)
+3. **Tendências da Obesidade**: Evolução dos percentuais de obesidade ao longo do tempo ➡️ `obesity_trend.png`: 
+![Evolução dos Percentuais de Obesidade ao Longo do Tempo](images/obesity_trend.png)
 
 🛠️ Ferramentas Utilizadas
 Python
@@ -61,5 +68,8 @@ Gabriel Miranda
 📧 Contato
 Para mais informações, entre em contato pelo email: gamirsco@gmail.com
 
-
+```
+<p align="center">
+<img src="https://avatars.githubusercontent.com/u/152089875?s=400&u=d18ec50709028dd6543ca6955de6672265f7a846&v=4" alt="Foto de perfil do Gabriel">
+</p>
 ```
