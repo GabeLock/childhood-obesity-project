@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        @keyframes fadeInSlide {
-            0% {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .animated-title {
-            font-size: 2em;
-            font-weight: bold;
-            animation: fadeInSlide 2s ease-in-out;
-            text-align: center; /* Centraliza o texto */
-        }
-    </style>
-</head>
-<body>
-    <h1 class="animated-title">Bem-vindo ao Projeto!</h1>
-</body>
-</html>
-
-
-# <h1 align="center"> 🏥 Childhood Obesity Project </h1>
+# <h1> 🏥 Childhood Obesity Project </h1>
 
 ![Project Status](https://img.shields.io/badge/Status-Active-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
@@ -103,6 +72,6 @@ Para mais informações, entre em contato pelo email: gamirsco@gmail.com
 
 ```
 <p align="center">
-<img src="https://avatars.githubusercontent.com/u/152089875?s=400&u=d18ec50709028dd6543ca6955de6672265f7a846&v=4" alt="Foto de perfil do Gabriel" style="width: 50%; border-radius: 50%;">
+<img src="https://avatars.githubusercontent.com/u/152089875?s=400&u=d18ec50709028dd6543ca6955de6672265f7a846&v=4" alt="Foto de perfil do Gabriel" style="width: 50px; border-radius: 5px;">
 </p>
 ```
